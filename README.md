@@ -1,5 +1,13 @@
 Icons: https://lucide.dev/icons/
 
+
+Clon
+
+```console
+git clone https://github.com/irwansah/project-laravel-absennplus.git
+cd project-laravel-absennplus
+```
+
 Install
 
 ```console
