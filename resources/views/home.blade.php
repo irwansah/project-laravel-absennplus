@@ -113,7 +113,7 @@
                             <p>6 jam berlalu</p>
                             <button
                                 type="button"
-                                class="flex w-full mt-3 justify-center rounded-full bg-gray-100 border-slate-300 border px-3 py-1.5 text-sm/6 font-semibold text-black shadow-xs hover:bg-gray-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+                                class="cursor-pointer flex w-full mt-3 justify-center rounded-full bg-gray-100 border-slate-300 border px-3 py-1.5 text-sm/6 font-semibold text-black shadow-xs hover:bg-gray-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
                             >
                                 Checkout
                             </button>
@@ -121,7 +121,7 @@
                     </div>
 
                     <div
-                        class="card card-alert cursor-pointer bg-[#e4e4e4] shadow-lg w-full rounded-3xl flex flex-col justify-start gap-2 p-4"
+                        class="card card-alert cursor-pointer  hover:bg-gray-100 bg-[#e4e4e4] shadow-lg w-full rounded-3xl flex flex-col justify-start gap-2 p-4"
                     >
                         <div
                             class="icons rounded-full bg-red-500 text-white w-10 h-10 p-2"
@@ -150,7 +150,7 @@
                     </div>
 
                     <div
-                        class="card card-alert cursor-pointer bg-[#e4e4e4] shadow-lg w-full rounded-3xl flex flex-col justify-start gap-2 p-4"
+                        class="card card-alert cursor-pointer hover:bg-gray-100 bg-[#e4e4e4] shadow-lg w-full rounded-3xl flex flex-col justify-start gap-2 p-4"
                     >
                         <div
                             class="icons rounded-full bg-red-500 text-white w-10 h-10 p-2"
@@ -178,7 +178,7 @@
                         </div>
                     </div>
                     <div
-                        class="card card-alert cursor-pointer bg-[#e4e4e4] shadow-lg w-full rounded-3xl flex flex-col justify-start gap-2 p-4"
+                        class="card card-alert cursor-pointer hover:bg-gray-100 bg-[#e4e4e4] shadow-lg w-full rounded-3xl flex flex-col justify-start gap-2 p-4"
                     >
                         <div
                             class="icons rounded-full bg-red-500 text-white w-10 h-10 p-2"
@@ -207,7 +207,7 @@
                     </div>
 
                     <div
-                        class="card card-alert cursor-pointer bg-[#e4e4e4] shadow-lg w-full rounded-3xl flex flex-col justify-start gap-2 p-4"
+                        class="card card-alert cursor-pointer hover:bg-gray-100 bg-[#e4e4e4] shadow-lg w-full rounded-3xl flex flex-col justify-start gap-2 p-4"
                     >
                         <div
                             class="icons rounded-full bg-red-500 text-white w-10 h-10 p-2"
