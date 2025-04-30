@@ -15,8 +15,13 @@
 
         <style>
             .bottom-nav {
+                position:fixed;
+                bottom: 0;
+                left:0;
+                right:0;
                 display: flex;
-                justify-content: space-around;
+                justify-content: center;
+                gap:20dvw;
                 align-items: center;
                 background: white;
                 padding: 10px 0;
@@ -28,6 +33,9 @@
                 text-decoration: none;
                 color: #bbb; /* default abu-abu */
                 font-size: 12px;
+                display: flex;
+                align-items: center;
+                flex-direction:column
             }
 
             .bottom-nav a.active {
@@ -131,7 +139,7 @@
                                     <button type="submit" class="cursor-pointer flex w-full mt-3 justify-center rounded-full bg-gray-100 border-slate-300 border px-3 py-1.5 text-sm/6 font-semibold text-black shadow-xs hover:bg-gray-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600">
                                         Checkout
                                     </button>
-                                @endif                                
+                                @endif
                             </form>
                         </div>
                     </div>
@@ -155,9 +163,9 @@
                                 <span class="text-gray-400">{{ $count }} {{ $text }}</span>
                                 <h3 class="text-lg font-bold">{{ $item['title'] }}</h3>
                             </div>
-                        </a>                        
-                    </div> 
-                    @endforeach 
+                        </a>
+                    </div>
+                    @endforeach
 
                     <!--<div style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
                         <a href="{{ route('cuti') }}" class="card card-alert cursor-pointer  hover:bg-gray-100 bg-[#e4e4e4] shadow-lg w-full rounded-3xl flex flex-col justify-start gap-2 p-4">
@@ -172,8 +180,8 @@
                                 <span class="text-gray-400">{{ $data['cuti_baru'] }} Remaining</span>
                                 <h3 class="text-lg font-bold">Cuti</h3>
                             </div>
-                        </a>   
-                    </div>              
+                        </a>
+                    </div>
 
                     <div class="card card-alert cursor-pointer hover:bg-gray-100 bg-[#e4e4e4] shadow-lg w-full rounded-3xl flex flex-col justify-start gap-2 p-4">
                         <div class="icons rounded-full bg-red-500 text-white w-10 h-10 p-2">
